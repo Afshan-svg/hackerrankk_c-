@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n;
+    string arr[9] = 
+{"one","two","three",
+"four","five","six",
+"seven","eight","nine"};
+    cin >> n;
+    
+    if(n > 9){
+        cout << "Greater than 9" << endl;
+    }else{
+	cout << arr[n-1];
+	}
+    
+    return 0;
+}
